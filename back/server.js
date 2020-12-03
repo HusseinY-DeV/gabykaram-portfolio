@@ -43,9 +43,10 @@ app.get('/home', (req, res) => {
 
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: 'Huzznext1${dev}',
-    database: 'gk',
+    // Make sure to enter your right credentials here
+    user: '',
+    password: '',
+    database: '',
     insecureAuth: true
 });
 db.connect((err) => {
